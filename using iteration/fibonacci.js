@@ -8,4 +8,5 @@ const fib = (n) => {
   return table[n];
 }
 
+console.log(fib(80));
 console.log(fib(100));
