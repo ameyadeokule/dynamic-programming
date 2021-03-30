@@ -2,7 +2,7 @@ const canConstruct = (target, wordbank) => {
   const table = Array(target.length + 1).fill(false)
   table[0] =true
 
-  for (let i = 0; i <= wordbank.length; i++) {
+  for (let i = 0; i <= target.length; i++) {
     if(table[i] === true){
       for (let word of wordbank) {
         if(target.slice (i, i+word.length) === word){
