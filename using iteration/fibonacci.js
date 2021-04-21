@@ -9,4 +9,4 @@ const fib = (n) => {
 }
 
 console.log(fib(40));
-console.log(fib(100));
+console.log(fib(10000));
